@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>臺中教育大學：王品智</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #212121;
+      color: #fff;
+    }
+
+    .intro {
+      background-color: #37474f;
+      text-align: left;
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .intro h1 {
+      font-size: 3em;
+      margin-bottom: 1em;
+      text-align: left;
+    }
+
+    .intro p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+      text-align: left;
+    }
+
+    .intro .button-group {
+      justify-content: left;
+      margin-bottom: 2em;
+    }
+
+    .intro a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 0 10px;
+      background-color: #607d8b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .intro a:hover {
+      background-color: #455a64;
+    }
+
+    .intro div {
+      text-align: left;
+    }
+
+    .section {
+      padding: 20px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      margin-left: 80px;
+    }
+
+    .section-title i {
+      font-size: 3em;
+      margin-right: 10px;
+    }
+
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .section-item {
+      width: 200px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #455a64;
+      border-radius: 5px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease; /* 添加过渡效果 */
+    }
+
+    .section-item:hover {
+      transform: scale(1.1); /* 鼠标悬停时放大 */
+    }
+
+    .section-item .image-container { /* 新增一个 div 包裹图片 */
+      width: 100px; /* 设置 div 的宽度 */
+      height: 100px; /* 设置 div 的高度 */
+      margin-bottom: 10px;
+      overflow: hidden; /* 隐藏超出部分 */
+    }
+
+    .section-item .image-container img {
+      max-width: 100%; /* 图片最大宽度 */
+      max-height: 100%; /* 图片最大高度 */
+      display: block; /* 让图片独占一行 */
+    }
+
+    .section-item h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .section-item p {
+      font-size: 0.9em;
+    }
+
+    .even {
+      background-color: #424242;
+    }
+
+    a[href^="#"] {
+      outline: none;
+    }
+
+    a[href^="#"]:hover {
+      text-decoration: none;
+    }
+
+    a[href^="#"]:active {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    a[href^="#"]:focus {
+      outline: none;
+    }
+
+    a[href^="#"]:focus {
+      outline: none;
+    }
+
+    html,
+    body {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="intro">
+    <div>
+      <h1>王品智</h1>
+      <p>臺中教育大學 - 資工系三年級</p>
+      <p>研究內容：雲端、K8s、瓶頸偵測、自動縮放、高速運算、平行程式、Infiniband、RDMA、CUDA ...</p>
+      <div class="button-group">
+        <a style="margin-left: 0;" href="#programming-languages">程式語言</a>
+        <a href="#frameworks">框架</a>
+        <a href="#tools">工具</a>
+        <a href="#social-links">社群連結</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="programming-languages">
+    <h2 class="section-title"><i class="material-icons">code</i> 程式語言</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <div class="image-container">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+            alt="Python 程式語言 Logo">
+        </div>
+        <h3>Python</h3>
+      </div>
+
+      <div class="section-item even">
+        <div class="image-container">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            alt="JavaScript 程式語言 Logo">
+        </div>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="section-item">
+        <div class="image-container">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+            alt="C/C++ 程式語言 Logo">
+        </div>
+        <h3>C/C++</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="frameworks">
+    <h2 class="section-title"><i class="material-icons">settings</i> 框架</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <div class="image-container">
+          <img src="https://repository-images.githubusercontent.com/596892/cc2c69ec-9251-4b33-8283-b86a8659c9cb"
+            alt="Flask 框架 Logo">
+        </div>
+        <h3>Flask</h3>
+      </div>
+
+      <div class="section-item even">
+        <div class="image-container">
+          <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/express-js-icon.png"
+            alt="Express.js 框架 Logo">
+        </div>
+        <h3>Express.js</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tools">
+    <h2 class="section-title"><i class="material-icons">build</i> 工具</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <div class="image-container">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Slurm_logo.svg/2238px-Slurm_logo.svg.png"
+            alt="Slurm 工具 Logo">
+        </div>
+        <h3>Slurm</h3>
+      </div>
+
+      <div class="section-item even">
+        <div class="image-container">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png"
+            alt="Kubernetes 工具 Logo">
+        </div>
+        <h3>Kubernetes</h3>
+      </div>
+
+      <div class="section-item">
+        <div class="image-container">
+          <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-1024x823-wiwlyizc.png"
+            alt="Google Cloud 工具 Logo">
+        </div>
+        <h3>Google Cloud</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="social-links">
+    <h2 class="section-title"><i class="material-icons">link</i> 社群連結</h2>
+    <div class="section-content">
+      <div class="section-item">
+        <a href="https://github.com/PinJhih">
+          <div class="image-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+          </div>
+        </a>
+        <h3>GitHub</h3>
+      </div>
+
+      <div class="section-item even">
+        <a href="https://discord.com/users/877826053920423936">
+          <div class="image-container">
+            <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png"
+              alt="Discord Logo">
+          </div>
+        </a>
+        <h3>Discord</h3>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
